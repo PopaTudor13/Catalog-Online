@@ -1,0 +1,181 @@
+.titlu{
+    width: 100%;
+    height: 80;
+    background-color: #38bea9;
+    font-family: "Pacifico";
+    color:white;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    font-size: 40;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.titlu a{
+    font-family: "Pacifico";
+    color:white;
+    font-size: 40;
+    text-decoration: none;
+}
+.container {
+    display: inline-block;
+    cursor: pointer;
+}
+  
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 3px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    margin: 6px 7px;
+    transition: 0.4s;
+}
+  
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+  
+.change .bar2 {opacity: 0}
+  
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+  
+.meniu {
+    height: 100%;
+    margin-top: 69;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #38bea9;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    font-family: "Pacifico";
+}
+
+form{
+    margin-top: 2%;
+    font-family: "Pacifico";
+    font-size: 25;
+}
+form input{
+    width: 300;
+    margin: 2px solid black;
+    border-radius: 8px;
+}
+form [type="submit"]{
+    width: 100;
+    background-color: white;
+    font-family: "Pacifico";
+    font-size: 20;
+}
+
+select{
+    margin: 2px solid black;
+    border-radius: 8px;
+    background-color: white;
+    font-family: "Pacifico";
+    font-size: 20;
+	text-align-last:center;
+	margin-top: 100px;
+}
+.meniu a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+  
+.meniu .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.parola{
+    margin-top: 100px;
+    font-family: "Pacifico";
+    color: #38bea9;
+    font-size: 30;
+}
+
+#parola{
+    background-color: white;
+    border: none;
+    font-size: 40;
+    color: #38bea9;
+    font-family: "pacifico";
+}
+
+#hidden{
+    display: none;
+}
+
+#hidden input{
+    border: 2px solid #38bea9;
+    border-radius: 8px;
+    width: 300;
+    height: 30;
+    font-size: 25;
+}
+#hidden #submit{
+    background-color: #ffffff;
+    color: #38bea9;
+    border-color: #38bea9;
+    font-family: "pacifico";
+    font-size: 18;
+    margin-top: 15px;
+}
+   
+@media screen and (max-height: 450px) {
+    .meniu {padding-top: 15px;}
+    .meniu a {font-size: 18px;}
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #1b8172;
+  }  
+
+::-webkit-scrollbar-thumb {
+    background: #38bea9;
+}
+body{
+    background-color: white;
+}
+table, td, th{
+  border: 3px solid black;
+  border-radius:10px;
+  text-align:center;
+  font-family: "Pacifico";
+}
+table{
+	background-color:#38bea9;
+	font-family: "Pacifico";
+}
+td, th{
+	background-color:#ffffff;
+	border-color:#38bea9;
+	padding: 7px;
+	font-family: "Pacifico";
+}
