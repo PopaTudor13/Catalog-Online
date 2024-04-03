@@ -1,0 +1,86 @@
+.titlu{
+    width: device-width;
+    height: 80;
+    background-color: #38bea9;
+    font-family: "Pacifico";
+    color:white;
+    font-size: 40;
+    margin-top: -10;
+    margin-left: -8;
+    margin-right: -8;
+}
+
+.titlu a{
+    text-decoration: none;
+    color: white;
+}
+
+form{
+    margin-top: 2%;
+    font-family: "Pacifico";
+    font-size: 25;
+}
+form input{
+    width: 300;
+    margin: 2px solid black;
+    border-radius: 8px;
+}
+form [type="submit"]{
+    width: 100;
+    background-color: white;
+    font-family: "Pacifico";
+    font-size: 20;
+}
+
+select{
+    margin: 2px solid black;
+    border-radius: 8px;
+    background-color: white;
+    font-family: "Pacifico";
+    font-size: 20;
+	text-align-last:center;
+}
+
+body{
+    background-color: white;
+}
+label{
+	margin-top: 2%;
+    font-family: "Pacifico";
+    font-size: 25;
+}
+
+table, td, th{
+  border: 3px solid black;
+  border-radius:10px;
+  text-align:center;
+  font-family: "Pacifico";
+}
+table{
+	background-color:#38bea9;
+	font-family: "Pacifico";
+}
+td, th{
+	background-color:#ffffff;
+	border-color:#38bea9;
+	padding: 7px;
+	font-family: "Pacifico";
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    background-color: #38bea9;
+    border: 2px solid #38bea9;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    width: 325px;
+    height: 50px;
+    font-family: "Pacifico";
+    margin-top: 5%;
+    font-size: 25;
+}
+
+
+
